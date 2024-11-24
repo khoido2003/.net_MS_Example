@@ -26,9 +26,7 @@ namespace PlatformService.Data
 
         public async Task<Platform> GetPlatformById(int id)
         {
-
             return await _context.Platforms.FirstOrDefaultAsync(p => p.Id == id)!;
-
         }
 
         public async void CreatePlatform(Platform plat)
