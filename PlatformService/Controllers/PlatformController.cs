@@ -13,8 +13,8 @@ namespace PlatformService.Controllers
     public class PlatformsController : ControllerBase
     {
 
-        private IPlatformRepo _repository;
-        private IMapper _mapper;
+        private readonly IPlatformRepo _repository;
+        private readonly IMapper _mapper;
 
         public PlatformsController(IPlatformRepo repository, IMapper mapper)
         {
@@ -58,8 +58,6 @@ namespace PlatformService.Controllers
     
             return CreatedAtRoute(nameof(GetPlatformById), new {Id = platformReadDto!.Id}, platformReadDto);
         }
-            
-
 
     }
 }
