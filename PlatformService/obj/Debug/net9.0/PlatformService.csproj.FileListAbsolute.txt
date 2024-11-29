@@ -154,3 +154,4 @@ C:\Users\Lenovo\OneDrive\Desktop\net-microservice\PlatformService\obj\Debug\net9
 C:\Users\Lenovo\OneDrive\Desktop\net-microservice\PlatformService\obj\Debug\net9.0\PlatformService.pdb
 C:\Users\Lenovo\OneDrive\Desktop\net-microservice\PlatformService\obj\Debug\net9.0\PlatformService.genruntimeconfig.cache
 C:\Users\Lenovo\OneDrive\Desktop\net-microservice\PlatformService\obj\Debug\net9.0\ref\PlatformService.dll
+C:\Users\Lenovo\OneDrive\Desktop\net-microservice\PlatformService\obj\Debug\net9.0\PlatformService.sourcelink.json
