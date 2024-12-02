@@ -12,6 +12,9 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "CommandsService.dll"]
 
+
+
+
 # docker build -t khoizpro7/commandservice .
 # docker push khoizpro7/commandservice
 # docker run -p 5000:8080 khoizpro7/commandservice

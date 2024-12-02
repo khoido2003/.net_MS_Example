@@ -2,22 +2,35 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: platform-depl
+  namespace: default
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: platformservice
   template:
-    metadata: 
+    metadata:
       labels:
         app: platformservice
-    spec: 
+    spec:
       containers:
         - name: platformservice
-          image: khoizpro7/platformservice:latest  
+          image: khoizpro7/platformservice:latest
+          ports:
+            - containerPort: 8080
 
-
-
-
-
-
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: platforms-clusterip-srv
+  namespace: default
+spec:
+  type: ClusterIP
+  selector:
+    app: platformservice
+  ports:
+    - name: platformservice
+      protocol: TCP
+      port: 80
+      targetPort: 8080
