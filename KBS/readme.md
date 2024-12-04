@@ -74,6 +74,19 @@ kubectl delete pods --all -n default
 kubectl delete all --all -n <namespace>
 ```
 
+## Restart deployment
+bash
+```
+kubectl rollout restart deployment platform-depl
+
+```
+
+## Logs error in a pod
+bash 
+```
+kubectl logs  platform-depl-746fc4bd7f-67wls
+```
+
 ## Delete deployment
 
 bash
