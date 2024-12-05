@@ -120,3 +120,4 @@ C:\Users\Lenovo\OneDrive\Desktop\net-microservice\CommandsService\obj\Debug\net9
 C:\Users\Lenovo\OneDrive\Desktop\net-microservice\CommandsService\obj\Debug\net9.0\CommandsService.pdb
 C:\Users\Lenovo\OneDrive\Desktop\net-microservice\CommandsService\obj\Debug\net9.0\CommandsService.genruntimeconfig.cache
 C:\Users\Lenovo\OneDrive\Desktop\net-microservice\CommandsService\obj\Debug\net9.0\ref\CommandsService.dll
+C:\Users\Lenovo\OneDrive\Desktop\net-microservice\CommandsService\bin\Debug\net9.0\appsettings.Production.json
