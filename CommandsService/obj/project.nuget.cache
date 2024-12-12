@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fea1lluu8W0=",
+  "dgSpecHash": "YYBHb6iIFSc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\CommandsService\\CommandsService.csproj",
+  "projectFilePath": "E:\\net\\net-microservice\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
@@ -10,6 +11,19 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
+
+builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>(
+    provider =>
+    {
+      var configuration = provider.GetRequiredService<IConfiguration>();
+      var client = new MessageBusClient(configuration);
+
+      // Initialize the RabbitMQ connection
+      client.InitializeConnectionAsync().GetAwaiter().GetResult();
+
+      return client;
+    }
+    );
 
 var configuration = builder.Configuration;
 var env = builder.Environment;

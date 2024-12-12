@@ -2851,11 +2851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\CommandsService\\CommandsService.csproj",
+      "projectUniqueName": "E:\\net\\net-microservice\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\CommandsService\\CommandsService.csproj",
+      "projectPath": "E:\\net\\net-microservice\\CommandsService\\CommandsService.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\CommandsService\\obj\\",
+      "outputPath": "E:\\net\\net-microservice\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"

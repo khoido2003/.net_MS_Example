@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\PlatformService\\PlatformService.csproj": {}
+    "E:\\net\\net-microservice\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\PlatformService\\PlatformService.csproj": {
+    "E:\\net\\net-microservice\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "E:\\net\\net-microservice\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\PlatformService\\PlatformService.csproj",
+        "projectPath": "E:\\net\\net-microservice\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\net-microservice\\PlatformService\\obj\\",
+        "outputPath": "E:\\net\\net-microservice\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -69,6 +69,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

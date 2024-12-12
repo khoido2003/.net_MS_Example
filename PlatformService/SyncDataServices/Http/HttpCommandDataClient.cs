@@ -23,7 +23,7 @@ namespace PlatformService.SyncDataServices.Http
                     JsonSerializer.Serialize(plat), Encoding.UTF8, "application/json"
                     );
 
-            var response = await _httpClient.PostAsync($"{_configuration["CommandService"]}/api/c/platform", httpContent);
+            var response = await _httpClient.PostAsync($"{_configuration["CommandService"]}/api/c/platforms", httpContent);
             if (response.IsSuccessStatusCode)
             {
                 Console.WriteLine("--> Sync Post to CommandService was Ok");
