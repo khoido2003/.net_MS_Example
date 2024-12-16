@@ -25,8 +25,11 @@ namespace CommandsService.Controllers
     {
       Console.WriteLine($"--> Get Commands for Platform: {platformId}");
 
-      if (_repo.PlatformExists(platformId))
+      if (!_repo.PlatformExists(platformId))
       {
+
+        Console.WriteLine($"--> not found Commands for Platform: {platformId}");
+
         return NotFound();
       }
 
@@ -41,8 +44,9 @@ namespace CommandsService.Controllers
     {
       Console.WriteLine($"--> Get Commands for Platform: {platformId} / {commandId}");
 
-      if (_repo.PlatformExists(platformId))
+      if (!_repo.PlatformExists(platformId))
       {
+        Console.WriteLine("Not found " + platformId + " " + commandId);
         return NotFound();
       }
 

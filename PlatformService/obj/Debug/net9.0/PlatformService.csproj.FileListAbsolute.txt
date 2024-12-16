@@ -315,3 +315,10 @@ E:\net\net-microservice\PlatformService\obj\Debug\net9.0\refint\PlatformService.
 E:\net\net-microservice\PlatformService\obj\Debug\net9.0\PlatformService.pdb
 E:\net\net-microservice\PlatformService\obj\Debug\net9.0\PlatformService.genruntimeconfig.cache
 E:\net\net-microservice\PlatformService\obj\Debug\net9.0\ref\PlatformService.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Google.Protobuf.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Grpc.Core.Api.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Grpc.Net.Client.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+E:\net\net-microservice\PlatformService\bin\Debug\net9.0\Grpc.Net.Common.dll

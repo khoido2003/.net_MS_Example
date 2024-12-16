@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.AsyncDataServices;
 using PlatformService.Data;
+using PlatformService.SyncDataServices.Grpc;
 using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,8 @@ builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>(
       return client;
     }
     );
+
+builder.Services.AddGrpc();
 
 var configuration = builder.Configuration;
 var env = builder.Environment;
@@ -66,5 +69,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
+app.MapGrpcService<GrpcPlatformService>();
+app.MapGet("/proto/platforms.proto", async context =>
+{
+  await context.Response.WriteAsync(File.ReadAllText("Proto/platforms.proto"));
+});
+
+
 app.Run();
 
