@@ -245,3 +245,7 @@ E:\net\net-microservice\CommandsService\obj\Debug\net9.0\CommandsService.pdb
 E:\net\net-microservice\CommandsService\obj\Debug\net9.0\CommandsService.genruntimeconfig.cache
 E:\net\net-microservice\CommandsService\obj\Debug\net9.0\ref\CommandsService.dll
 E:\net\net-microservice\CommandsService\bin\Debug\net9.0\RabbitMQ.Client.dll
+E:\net\net-microservice\CommandsService\bin\Debug\net9.0\Google.Protobuf.dll
+E:\net\net-microservice\CommandsService\bin\Debug\net9.0\Grpc.Core.Api.dll
+E:\net\net-microservice\CommandsService\bin\Debug\net9.0\Grpc.Net.Client.dll
+E:\net\net-microservice\CommandsService\bin\Debug\net9.0\Grpc.Net.Common.dll
